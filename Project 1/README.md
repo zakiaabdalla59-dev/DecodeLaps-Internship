@@ -1,10 +1,10 @@
-# 🤖 Project 1: Robotic Arm Kinematics & Path Planning (ROS 2)
+# Project 1: Robotic Arm Kinematics & Path Planning (ROS 2)
 
 An autonomous 6-DOF Robotic Manipulator system built in **ROS 2** with Gazebo simulation, MoveIt/TF2 kinematics trajectory planning, ROS 2 control interfaces, and RViz 3D visualization.
 
 ---
 
-## 📸 Visual Simulation Results
+## Visual Simulation Results
 
 | RViz2 Kinematics View 1 | RViz2 Kinematics View 2 |
 | :---: | :---: |
@@ -16,7 +16,7 @@ An autonomous 6-DOF Robotic Manipulator system built in **ROS 2** with Gazebo si
 
 ---
 
-## 📌 Features
+## Features
 
 - **6-DOF Arm Model**: Complete URDF/Xacro robot description with valid visual, collision, non-zero inertia properties, and non-clamping joint limits.
 - **Analytical Inverse Kinematics**: Geometric 6-DOF IK solver in `kinematics_planner_node.py` supporting target end-effector poses (`/target_pose`).
@@ -26,7 +26,7 @@ An autonomous 6-DOF Robotic Manipulator system built in **ROS 2** with Gazebo si
 
 ---
 
-## 🏗️ Repository Architecture
+## Repository Architecture
 
 ```text
 arm_kinematics_planner/
@@ -51,7 +51,7 @@ arm_kinematics_planner/
 
 ---
 
-## ⚡ Quick Start & Execution
+## Quick Start & Execution
 
 ### 1. Build Package
 ```bash
@@ -79,7 +79,7 @@ ros2 topic pub /target_pose geometry_msgs/msg/PoseStamped "{
 
 ---
 
-## 📊 Calculated IK Output
+## Calculated IK Output
 ```text
 [INFO] [kinematics_planner_node]: Received target pose in frame: base_link
 [INFO] [kinematics_planner_node]: Computed IK Joint Angles (deg): [26.57, -1.59, 115.15, 0.0, -56.78, 0.0]
