@@ -89,4 +89,4 @@ ros2 topic pub /target_pose geometry_msgs/msg/PoseStamped "{
 
 ## Maintainer
 - **GitHub**: [@zakiaabdalla59-dev](https://github.com/zakiaabdalla59-dev)
-- **Repository**: [Task-1-ZakiaAbdalla](https://github.com/zakiaabdalla59-dev/Task-1-ZakiaAbdalla)
+- **Repository**: [DecodeLabs-Internship](https://github.com/zakiaabdalla59-dev/DecodeLabs-Internship)
