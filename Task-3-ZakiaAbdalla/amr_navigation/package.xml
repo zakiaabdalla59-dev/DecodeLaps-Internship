@@ -4,7 +4,7 @@
   <name>amr_navigation</name>
   <version>0.0.0</version>
   <description>Autonomous Mobile Robot (AMR) Navigation with EKF, SLAM, Custom A* Planner and Dynamic Deceleration Avoidance</description>
-  <maintainer email="ikramabdiazizyusuf@gmail.com">ikram</maintainer>
+  <maintainer email="zakiaabdalla59@gmail.com">Zakia Abdalla</maintainer>
   <license>Apache-2.0</license>
 
   <depend>rclpy</depend>

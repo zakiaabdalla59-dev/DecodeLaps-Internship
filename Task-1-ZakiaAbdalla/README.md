@@ -1,4 +1,4 @@
-# Project 1: Robotic Arm Kinematics & Path Planning (ROS 2)
+# Task 1: Robotic Arm Kinematics & Path Planning (ROS 2)
 
 An autonomous 6-DOF Robotic Manipulator system built in **ROS 2** with Gazebo simulation, MoveIt/TF2 kinematics trajectory planning, ROS 2 control interfaces, and RViz 3D visualization.
 

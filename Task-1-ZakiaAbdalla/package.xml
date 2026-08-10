@@ -4,7 +4,7 @@
   <name>arm_kinematics_planner</name>
   <version>0.0.1</version>
   <description>ROS 2 6-DOF Robotic Arm Kinematics &amp; Path Planning Package</description>
-  <maintainer email="nirina@todo.todo">nirina</maintainer>
+  <maintainer email="zakiaabdalla59@gmail.com">Zakia Abdalla</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_python</buildtool_depend>

@@ -17,8 +17,8 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='nirina',
-    maintainer_email='nirina@todo.todo',
+    maintainer='Zakia Abdalla',
+    maintainer_email='zakiaabdalla59@gmail.com',
     description='ROS 2 6-DOF Robotic Arm Kinematics & Path Planning Package',
     license='Apache-2.0',
     entry_points={

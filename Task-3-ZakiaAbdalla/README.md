@@ -42,5 +42,6 @@ Since ROS 2 is not natively pre-packaged for Ubuntu 26.04, running the system in
 Run the pre-configured launcher script from this directory. It grants authorization to the local X11 display socket and starts the container composition:
 
 ```bash
-cd "/home/ikram/DecodeLabs Internship/Task-3-IkramAbdiaziz"
+cd "./Task-3-ZakiaAbdalla"
 ./run_docker.sh
+```
