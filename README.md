@@ -23,4 +23,4 @@ Welcome to the **DecodeLabs Robotics & Automation Internship** repository. This 
 ## Author & Maintainer
 - **Name**: Zakia Abdalla
 - **GitHub**: [@zakiaabdalla59-dev](https://github.com/zakiaabdalla59-dev)
-- **Repository**: [DecodeLaps-Internshp](https://github.com/zakiaabdalla59-dev/DecodeLaps-Internshp)
+- **Repository**: [Task-1-ZakiaAbdalla](https://github.com/zakiaabdalla59-dev/Task-1-ZakiaAbdalla)
