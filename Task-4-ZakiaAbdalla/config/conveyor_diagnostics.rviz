@@ -1,0 +1,46 @@
+Panels:
+  - Class: rviz_default_plugins/Displays
+    Name: Displays
+  - Class: rviz_default_plugins/Views
+    Name: Views
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Value: true
+      Cell Size: 0.5
+      Color: 160; 160; 160
+      Plane: XY
+    - Class: rviz_default_plugins/TF
+      Name: TF Tree
+      Value: true
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+    - Class: rviz_default_plugins/MarkerArray
+      Name: PLC Actuators & Sensors
+      Topic:
+        Value: /plc/actuator_visualization
+      Value: true
+    - Class: rviz_default_plugins/LaserScan
+      Name: Height Laser Sensor (%I0.4)
+      Topic:
+        Value: /sensor/height_laser
+      Value: true
+      Size (m): 0.05
+      Color: 0; 255; 255
+  Global Options:
+    Background Color: 20; 24; 30
+    Fixed Frame: world
+    Frame Rate: 30
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 3.5
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0.5
+      Pitch: 0.45
+      Yaw: 0.78
