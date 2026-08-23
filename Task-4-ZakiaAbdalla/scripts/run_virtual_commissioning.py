@@ -81,13 +81,15 @@ def main():
         "06_Gazebo_RViz_Commissioning.png"
     ]
 
-    print("\n--- Step 3: Syncing Proof Screenshots to Working Directory ---")
+    print("\n--- Step 3: Syncing Proof Screenshots to Repository Folder ---")
     for fname in screenshot_files:
         src = os.path.join(media_dir, fname)
-        dst = os.path.join(working_dir, fname)
+        dst_task4 = os.path.join(base_dir, fname)
+        dst_work = os.path.join(working_dir, fname)
         if os.path.exists(src):
-            shutil.copy2(src, dst)
-            print(f"✔ Copied: {dst}")
+            shutil.copy2(src, dst_task4)
+            shutil.copy2(src, dst_work)
+            print(f"✔ Copied: {dst_task4}")
 
     print("\n" + "=" * 75)
     print("VIRTUAL COMMISSIONING & PROOF GENERATION COMPLETE!")
