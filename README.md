@@ -18,6 +18,10 @@ Welcome to the **DecodeLabs Robotics & Automation Internship** repository. This 
 - **Description**: A differential-drive AMR simulation with EKF sensor fusion (`robot_localization`), 2D Ceres SLAM mapping (`slam_toolbox`), a custom 8-connected A* global pathfinder node, and reflex obstacle avoidance.
 - **Location**: [`/Task-3-ZakiaAbdalla`](./Task-3-ZakiaAbdalla)
 
+### [Task 4: Gazebo & RViz Virtual Commissioning (PLC-Based Conveyor Sorting System)](./Task-4-ZakiaAbdalla)
+- **Description**: Industrial Virtual Commissioning architecture featuring IEC 61131-3 PLC logic, 500ms button debounce filtering, mutually exclusive FSM (States 1–4), single-scan edge detection (`R_TRIG`), transit physics timing (`TON` PT=1.5s), batch up-counter (`CTU`), Stop Category 0 hardware safety interlock, Gazebo 3D simulation, and RViz2 diagnostics.
+- **Location**: [`/Task-4-ZakiaAbdalla`](./Task-4-ZakiaAbdalla)
+
 ---
 
 ## Author & Maintainer
