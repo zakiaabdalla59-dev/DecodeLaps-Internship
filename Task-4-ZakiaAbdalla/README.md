@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project implements a complete **Virtual Commissioning & Control Architecture** for an industrial **PLC-Based Conveyor Sorting System** (DecodeLabs Project 4). The system integrates an IEC 61131-3 compliant PLC control node, single-scan edge detection (`R_TRIG`), transit timing physics (`TON`), batch up-counter (`CTU`), 500ms software mechanical button debounce filters, strict mutually exclusive Finite State Machine (FSM), and a Stop Category 0 hardware safety interlock.
 
@@ -14,7 +14,7 @@ The control node is paired with a **3D Gazebo Physics Simulator**, **RViz2 Diagn
 
 ---
 
-## 🛠️ Architecture & Technical Specifications
+## Architecture & Technical Specifications
 
 ### 1. I/O Tag Image Memory Mapping
 | Tag Name | Address | Signal Type | Electrical Contact | Description |
@@ -57,7 +57,7 @@ $$CV = CV + 1$$
 
 ---
 
-## 📷 Virtual Commissioning Proof Screenshots
+## Virtual Commissioning Proof Screenshots
 
 ### 1. I/O Tag Mapping & 500ms Software Debounce Filter
 ![01_IO_Mapping_Debounce](./media/01_IO_Mapping_Debounce.png)
@@ -79,7 +79,7 @@ $$CV = CV + 1$$
 
 ---
 
-## 🚀 Execution & Quick Start
+## Execution & Quick Start
 
 ```bash
 # Clone repository
