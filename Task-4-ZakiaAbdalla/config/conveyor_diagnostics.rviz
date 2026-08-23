@@ -1,8 +1,19 @@
 Panels:
-  - Class: rviz_default_plugins/Displays
+  - Class: rviz_common/Displays
+    Help Height: 78
     Name: Displays
-  - Class: rviz_default_plugins/Views
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Grid1
+        - /TF Tree1
+      Splitter Ratio: 0.5
+    Tree Height: 550
+  - Class: rviz_common/Views
+    Expanded:
+      - /Current View1
     Name: Views
+    Splitter Ratio: 0.5
 Visualization Manager:
   Class: ""
   Displays:
@@ -21,11 +32,19 @@ Visualization Manager:
     - Class: rviz_default_plugins/MarkerArray
       Name: PLC Actuators & Sensors
       Topic:
+        Depth: 5
+        Durability: Volatile
+        History: Keep Last
+        Reliability: Reliable
         Value: /plc/actuator_visualization
       Value: true
     - Class: rviz_default_plugins/LaserScan
       Name: Height Laser Sensor (%I0.4)
       Topic:
+        Depth: 5
+        Durability: Volatile
+        History: Keep Last
+        Reliability: Reliable
         Value: /sensor/height_laser
       Value: true
       Size (m): 0.05
